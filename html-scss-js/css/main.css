@@ -83,4 +83,23 @@ label {
 
 legend {
   display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0px 0px 0px 0px);
+  clip: rect(0px, 0px, 0px, 0px);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  white-space: nowrap;
+}
+
+.none {
+  display: none !important;
 }/*# sourceMappingURL=main.css.map */
